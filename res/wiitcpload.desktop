@@ -1,0 +1,13 @@
+[Desktop Entry]
+Exec=wiitcpload
+Name=WiiTCPLoad
+Icon=/usr/share/icons/wiitcpload48.png
+Type=Application
+Categories=Qt;KDE;Network
+Comment=Homebrew/TCPLoader channel client
+Comment[pl]=Klient kanału Homebrew/TCPLoader
+GenericName=Homebrew/TCPLoader channel client
+GenericName[pl]=Klient kanału Homebrew/TCPLoader
+Encoding=UTF-8
+Terminal=false
+X-KDE-StartupNotify=false

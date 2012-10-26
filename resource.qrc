@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/logo">
+        <file>images/wiitcpload128.png</file>
+    </qresource>
+    <qresource prefix="/window">
+        <file>images/open.png</file>
+        <file>images/quit.png</file>
+        <file>images/send.png</file>
+        <file>images/about.png</file>
+        <file>images/buttonok.png</file>
+    </qresource>
+</RCC>

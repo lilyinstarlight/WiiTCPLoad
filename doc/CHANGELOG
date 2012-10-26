@@ -1,0 +1,35 @@
+WiiTCPLoad Changelog
+====================
+
+WiiTCPLoad 0.05:
+
+- fully rewritten
+- save settings in ini file
+
+
+WiiTCPLoad 0.03:
+
+- GUI fixes in main/about window. (GUI looks correct on MacOSX/Windows)
+- Make install now working.
+- Integration with common desktop environments. (KDE3/4, GNOME)
+- Integration with konqueror, dolphin. ("Send to Homebrew/TCPLoader" action added)
+- Fixed TCPLoader protocol, now application wait for accept connection.
+- Improved windows version.
+- Various bug fixes in source code.
+- Support for FreeBSD(x86, x86_64).
+- MacOSX build is now a Universal Binary.
+
+WiiTCPLoad 0.02a:
+
+- GUI fixes in main/about window. (GUI looks correct on Windows)
+- Windows version should work now.
+
+WiiTCPLoad 0.02:
+
+- Support for threads.
+- Various bug fixes in source code.
+
+WiiTCPLoad 0.01:
+
+- Support for Homebrew Channel
+- Support for TCPLoader Channel
