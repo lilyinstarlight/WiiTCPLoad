@@ -1,0 +1,8 @@
+wiitcpload.pro.user
+Makefile*
+release
+debug
+src/*.o
+src/moc_*
+src/ui_*.h
+src/qrc_resource.cpp

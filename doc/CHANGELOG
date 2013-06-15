@@ -1,6 +1,13 @@
 WiiTCPLoad Changelog
 ====================
 
+WiiTCPLoad 0.06:
+
+- Updated protocol to work with the latest HBC
+- Added compression
+- Added arguments
+
+
 WiiTCPLoad 0.05:
 
 - fully rewritten
