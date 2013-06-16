@@ -98,7 +98,7 @@ void QWiiStreamThread::slotConnected()
     tcpSocket->flush();
 }
 
-void QWiiStreamThread::bytesWritten(qint64 value)
+void QWiiStreamThread::bytesWritten(qint64)
 {
     emit progressBarPosition(total);
     if (readData->atEnd() == true)
@@ -117,7 +117,7 @@ void QWiiStreamThread::bytesWritten(qint64 value)
     tcpSocket->write(buffer, readed);
 }
 
-void QWiiStreamThread::slotError(QAbstractSocket::SocketError socketError)
+void QWiiStreamThread::slotError(QAbstractSocket::SocketError)
 {
     errorName = tcpSocket->errorString();
     status = fail;
