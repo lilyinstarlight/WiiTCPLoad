@@ -7,6 +7,6 @@
         <file>images/quit.png</file>
         <file>images/send.png</file>
         <file>images/about.png</file>
-        <file>images/buttonok.png</file>
+        <file>images/ok.png</file>
     </qresource>
 </RCC>

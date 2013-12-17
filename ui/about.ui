@@ -85,7 +85,7 @@ p, li { white-space: pre-wrap; }
        </property>
        <property name="icon">
         <iconset resource="../resource.qrc">
-         <normaloff>:/window/images/buttonok.png</normaloff>:/window/images/buttonok.png</iconset>
+         <normaloff>:/window/images/ok.png</normaloff>:/window/images/ok.png</iconset>
        </property>
       </widget>
      </item>
