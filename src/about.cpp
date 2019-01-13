@@ -33,5 +33,5 @@ AboutForm::~AboutForm()
 
 void AboutForm::slotConfirmButton()
 {
-    close();
+   close();
 }

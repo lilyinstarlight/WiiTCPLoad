@@ -18,11 +18,17 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
+#include <QtCore/qglobal.h>
+
+
+
+
 #include "qwiistreamthread.h"
 
 #include <QAbstractSocket>
 #include <QMetaType>
 #include <QByteArray>
+#include <QDataStream>
 
 const qint8 ok = 0x00;
 const qint8 fail = 0x01;

@@ -171,7 +171,8 @@ void MainWindow::on_streamButton_clicked()
     }
 
     QByteArray *args = new QByteArray();
-    *args = ui->argEdit->text().toAscii();
+    //*args = ui->argEdit->text().toAscii(); //toAscii() has been depreciated in qt5
+    *args = ui->argEdit->text().toLatin1(); //toAscii() has been replaced by toLatin1()
     int args_len = 0;
     if(!args->isEmpty())
         args_len = args->size() + 1;
