@@ -1,7 +1,5 @@
-# -------------------------------------------------
-# Project created by QtCreator 2009-03-20T00:00:12
-# -------------------------------------------------
 QT += network
+QT += widgets
 TARGET = wiitcpload
 TEMPLATE = app
 SOURCES += src/main.cpp \
@@ -13,7 +11,7 @@ HEADERS += src/mainwindow.h \
     src/about.h
 FORMS += ui/mainwindow.ui \
     ui/about.ui
-RESOURCES += resource.qrc
+RESOURCES += resources.qrc
 
 UI_DIR = src
 MOC_DIR = src
@@ -39,8 +37,6 @@ unix {
  d3lphin_integration.files =  res/$${TARGET}-send.desktop
  konqueror_integration.path =  /usr/share/apps/konqueror/servicemenus
  konqueror_integration.files =  res/$${TARGET}-send.desktop
- kde4_integration.path =  /usr/lib/kde4/share/kde4/services/ServiceMenus
- kde4_integration.files = res/$${TARGET}-send.desktop
  INSTALLS =  target \
   doc \
   icons \
@@ -48,7 +44,6 @@ unix {
   dolphin_integration \
   d3lphin_integration \
   konqueror_integration \
-  kde4_integration
 }
 
 macx {

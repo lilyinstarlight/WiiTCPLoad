@@ -1,6 +1,10 @@
 WiiTCPLoad Changelog
 ====================
 
+WiiTCPLoad 0.07
+
+- Source patched to allow compiling for qt5  
+
 WiiTCPLoad 0.06:
 
 - Updated protocol to work with the latest HBC

@@ -21,7 +21,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QtGui/QMainWindow>
+//#include <QtGui/QMainWindow>
+#include <QtWidgets/QMainWindow>
 #include "qwiistreamthread.h"
 #include "about.h"
 
